@@ -1,0 +1,513 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672731355661' stop='1672731373654'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1672731355662' status='passed' stop='1672731359608'>
+            <name>Should register a new user without gender</name>
+            <title>Should register a new user without gender</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1672731359608' status='passed' stop='1672731360981'>
+            <name>Should not register a new user without first name</name>
+            <title>Should not register a new user without first name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1672731360982' status='passed' stop='1672731361867'>
+            <name>Should not register a new user without last name</name>
+            <title>Should not register a new user without last name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1672731361867' status='failed' stop='1672731373291'>
+            <name>Should register a new user without day</name>
+            <title>Should register a new user without day</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`/html/body/div[6]/div[3]/div/div/div/div[2]/div[1]`) to have text containing
+                
+                Expected: "Your registration completed"
+                Received: null</message>
+                <stack-trace>Error: Expect $(`/html/body/div[6]/div[3]/div/div/div/div[2]/div[1]`) to have text containing
+                
+                Expected: "Your registration completed"
+                Received: null
+                    at Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:53:45)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672731373292' status='broken' stop='1672731373309'>
+            <name>Should register a new user without month</name>
+            <title>Should register a new user without month</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:60:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672731373309' status='broken' stop='1672731373325'>
+            <name>Should register a new user without year</name>
+            <title>Should register a new user without year</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:70:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672731373325' status='broken' stop='1672731373340'>
+            <name>Should not register a new user without email</name>
+            <title>Should not register a new user without email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:80:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672731373340' status='broken' stop='1672731373363'>
+            <name>Should not register a new user with invalid email</name>
+            <title>Should not register a new user with invalid email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async RegPage.regusr (file:///home/qburst/Desktop/TCOE/wdio-framework/test/pageobjects/reg.page.js:46:27)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:90:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672731373364' status='broken' stop='1672731373386'>
+            <name>Should not register a new user with an existing email</name>
+            <title>Should not register a new user with an existing email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async RegPage.regusr (file:///home/qburst/Desktop/TCOE/wdio-framework/test/pageobjects/reg.page.js:46:27)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:100:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672731373387' status='broken' stop='1672731373411'>
+            <name>Should register a new user without company name</name>
+            <title>Should register a new user without company name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async RegPage.regusr (file:///home/qburst/Desktop/TCOE/wdio-framework/test/pageobjects/reg.page.js:46:27)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:110:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672731373411' status='broken' stop='1672731373427'>
+            <name>Should not register a new user without password</name>
+            <title>Should not register a new user without password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:119:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672731373427' status='broken' stop='1672731373449'>
+            <name>Should not register a new user without matching confirmation password</name>
+            <title>Should not register a new user without matching confirmation password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async RegPage.regusr (file:///home/qburst/Desktop/TCOE/wdio-framework/test/pageobjects/reg.page.js:46:27)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:130:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672731373449' status='broken' stop='1672731373473'>
+            <name>Should not register a new user without confirmation password</name>
+            <title>Should not register a new user without confirmation password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async RegPage.regusr (file:///home/qburst/Desktop/TCOE/wdio-framework/test/pageobjects/reg.page.js:46:27)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:139:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672731373474' status='broken' stop='1672731373495'>
+            <name>Should not register a new user without a valid password</name>
+            <title>Should not register a new user without a valid password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async RegPage.regusr (file:///home/qburst/Desktop/TCOE/wdio-framework/test/pageobjects/reg.page.js:46:27)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:148:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672731373497' status='broken' stop='1672731373521'>
+            <name>Should register a new user</name>
+            <title>Should register a new user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async RegPage.regusr (file:///home/qburst/Desktop/TCOE/wdio-framework/test/pageobjects/reg.page.js:46:27)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:158:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672731373522' status='broken' stop='1672731373546'>
+            <name>Should not login without email</name>
+            <title>Should not login without email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:166:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672731373546' status='broken' stop='1672731373569'>
+            <name>Should not login without password</name>
+            <title>Should not login without password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async LoginPage.reglogin (file:///home/qburst/Desktop/TCOE/wdio-framework/test/pageobjects/login.page.js:30:9)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:175:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672731373569' status='broken' stop='1672731373589'>
+            <name>Should not login with invalid password</name>
+            <title>Should not login with invalid password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async LoginPage.reglogin (file:///home/qburst/Desktop/TCOE/wdio-framework/test/pageobjects/login.page.js:30:9)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:183:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672731373589' status='broken' stop='1672731373615'>
+            <name>Should not login without invalid email</name>
+            <title>Should not login without invalid email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async LoginPage.reglogin (file:///home/qburst/Desktop/TCOE/wdio-framework/test/pageobjects/login.page.js:30:9)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:191:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672731373615' status='broken' stop='1672731373634'>
+            <name>Should not login with unregistered email</name>
+            <title>Should not login with unregistered email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async LoginPage.reglogin (file:///home/qburst/Desktop/TCOE/wdio-framework/test/pageobjects/login.page.js:30:9)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:199:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672731373634' status='broken' stop='1672731373653'>
+            <name>Should login with valid credentials</name>
+            <title>Should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async LoginPage.reglogin (file:///home/qburst/Desktop/TCOE/wdio-framework/test/pageobjects/login.page.js:30:9)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:207:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

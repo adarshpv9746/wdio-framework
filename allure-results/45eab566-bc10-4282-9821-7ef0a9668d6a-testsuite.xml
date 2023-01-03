@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672307085174' stop='1672307115056'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672743767519' stop='1672743794216'>
     <name>My Login application</name>
     <title>My Login application</title>
     <test-cases>
-        <test-case start='1672307085175' status='passed' stop='1672307088513'>
+        <test-case start='1672743767520' status='passed' stop='1672743770484'>
             <name>Should register a new user without gender</name>
             <title>Should register a new user without gender</title>
             <labels>
@@ -17,7 +17,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1672307088513' status='passed' stop='1672307089991'>
+        <test-case start='1672743770484' status='passed' stop='1672743771688'>
             <name>Should not register a new user without first name</name>
             <title>Should not register a new user without first name</title>
             <labels>
@@ -31,7 +31,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1672307089991' status='passed' stop='1672307090887'>
+        <test-case start='1672743771688' status='passed' stop='1672743772361'>
             <name>Should not register a new user without last name</name>
             <title>Should not register a new user without last name</title>
             <labels>
@@ -45,7 +45,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1672307090887' status='passed' stop='1672307092564'>
+        <test-case start='1672743772361' status='passed' stop='1672743773857'>
             <name>Should register a new user without day</name>
             <title>Should register a new user without day</title>
             <labels>
@@ -59,7 +59,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1672307092564' status='passed' stop='1672307094755'>
+        <test-case start='1672743773857' status='passed' stop='1672743775881'>
             <name>Should register a new user without month</name>
             <title>Should register a new user without month</title>
             <labels>
@@ -73,7 +73,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1672307094755' status='passed' stop='1672307096987'>
+        <test-case start='1672743775881' status='passed' stop='1672743777966'>
             <name>Should register a new user without year</name>
             <title>Should register a new user without year</title>
             <labels>
@@ -87,7 +87,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1672307096987' status='passed' stop='1672307098441'>
+        <test-case start='1672743777966' status='passed' stop='1672743779202'>
             <name>Should not register a new user without email</name>
             <title>Should not register a new user without email</title>
             <labels>
@@ -101,7 +101,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1672307098442' status='passed' stop='1672307099360'>
+        <test-case start='1672743779202' status='passed' stop='1672743779843'>
             <name>Should not register a new user with invalid email</name>
             <title>Should not register a new user with invalid email</title>
             <labels>
@@ -115,7 +115,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1672307099361' status='passed' stop='1672307100708'>
+        <test-case start='1672743779843' status='passed' stop='1672743780967'>
             <name>Should not register a new user with an existing email</name>
             <title>Should not register a new user with an existing email</title>
             <labels>
@@ -129,7 +129,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1672307100708' status='passed' stop='1672307102500'>
+        <test-case start='1672743780967' status='passed' stop='1672743782527'>
             <name>Should register a new user without company name</name>
             <title>Should register a new user without company name</title>
             <labels>
@@ -143,7 +143,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1672307102500' status='passed' stop='1672307103912'>
+        <test-case start='1672743782527' status='passed' stop='1672743783688'>
             <name>Should not register a new user without password</name>
             <title>Should not register a new user without password</title>
             <labels>
@@ -157,7 +157,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1672307103912' status='passed' stop='1672307104803'>
+        <test-case start='1672743783688' status='passed' stop='1672743784340'>
             <name>Should not register a new user without matching confirmation password</name>
             <title>Should not register a new user without matching confirmation password</title>
             <labels>
@@ -171,7 +171,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1672307104803' status='passed' stop='1672307105701'>
+        <test-case start='1672743784340' status='passed' stop='1672743784999'>
             <name>Should not register a new user without confirmation password</name>
             <title>Should not register a new user without confirmation password</title>
             <labels>
@@ -185,7 +185,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1672307105701' status='passed' stop='1672307106580'>
+        <test-case start='1672743784999' status='passed' stop='1672743785612'>
             <name>Should not register a new user without a valid password</name>
             <title>Should not register a new user without a valid password</title>
             <labels>
@@ -199,7 +199,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1672307106581' status='passed' stop='1672307108273'>
+        <test-case start='1672743785612' status='passed' stop='1672743787118'>
             <name>Should register a new user</name>
             <title>Should register a new user</title>
             <labels>
@@ -213,7 +213,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1672307108273' status='passed' stop='1672307109394'>
+        <test-case start='1672743787118' status='passed' stop='1672743788211'>
             <name>Should not login without email</name>
             <title>Should not login without email</title>
             <labels>
@@ -227,7 +227,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1672307109394' status='passed' stop='1672307110598'>
+        <test-case start='1672743788211' status='passed' stop='1672743789384'>
             <name>Should not login without password</name>
             <title>Should not login without password</title>
             <labels>
@@ -241,7 +241,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1672307110598' status='passed' stop='1672307111736'>
+        <test-case start='1672743789384' status='passed' stop='1672743790509'>
             <name>Should not login with invalid password</name>
             <title>Should not login with invalid password</title>
             <labels>
@@ -255,7 +255,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1672307111736' status='passed' stop='1672307112459'>
+        <test-case start='1672743790509' status='passed' stop='1672743791301'>
             <name>Should not login without invalid email</name>
             <title>Should not login without invalid email</title>
             <labels>
@@ -269,7 +269,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1672307112459' status='passed' stop='1672307113617'>
+        <test-case start='1672743791301' status='passed' stop='1672743792685'>
             <name>Should not login with unregistered email</name>
             <title>Should not login with unregistered email</title>
             <labels>
@@ -283,7 +283,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1672307113617' status='passed' stop='1672307115056'>
+        <test-case start='1672743792685' status='passed' stop='1672743794216'>
             <name>Should login with valid credentials</name>
             <title>Should login with valid credentials</title>
             <labels>
