@@ -18,7 +18,7 @@ describe('Registration Test Cases: ', () => {
         await DashPage.open()
         //register (gender, fname, lname, day, month, year, email, company, password, cpassword)
         await DashPage.register();
-        await regPage.regusr("",helper.test_uname, helper.test_string, "1","January","2020",helper.random_mail("fresher","mailinator.com"),helper.test_uname,"password","password")
+        await regPage.regusr("",helper.test_uname, helper.test_string, "1","January","2020",helper.random_mail("freshers","mailinator.com"),helper.test_uname,"password","password")
         await expect(SecurePage.regsuccess).toBeExisting()
         await expect(SecurePage.regsuccess).toHaveTextContaining('Your registration completed')
     
@@ -29,7 +29,7 @@ describe('Registration Test Cases: ', () => {
         //register (gender, fname, lname, day, month, year, email, company, password, cpassword)
         //await DashPage.register();
         await regPage.open()
-        await regPage.regusr("f",'', helper.test_string, "1","January","2020",helper.random_mail("fresher","mailinator.com"),helper.test_uname,"password","password")
+        await regPage.regusr("f",'', helper.test_string, "1","January","2020",helper.random_mail("freshers","mailinator.com"),helper.test_uname,"password","password")
         await expect(SecurePage.fnameerror).toBeExisting()
         await expect(SecurePage.fnameerror).toHaveTextContaining('First name is required.')
     
@@ -39,7 +39,7 @@ describe('Registration Test Cases: ', () => {
         //await DashPage.open()
         //register (gender, fname, lname, day, month, year, email, company, password, cpassword)
         //await DashPage.register();
-        await regPage.regusr("m",helper.test_uname,'', "1","January","2020",helper.random_mail("fresher","mailinator.com"),helper.test_uname,"password","password")
+        await regPage.regusr("m",helper.test_uname,'', "1","January","2020",helper.random_mail("freshers","mailinator.com"),helper.test_uname,"password","password")
         await expect(SecurePage.lnameerror).toBeExisting()
         await expect(SecurePage.lnameerror).toHaveTextContaining('Last name is required.')
     
@@ -48,7 +48,7 @@ describe('Registration Test Cases: ', () => {
         //await DashPage.open()
         //register (gender, fname, lname, day, month, year, email, company, password, cpassword)
         //await DashPage.register();
-        await regPage.regusr("m",helper.test_uname, helper.test_string, "Day","January","2020",helper.random_mail("fresher","mailinator.com"),helper.test_uname,"password","password")
+        await regPage.regusr("m",helper.test_uname, helper.test_string, "Day","January","2020",helper.random_mail("freshers","mailinator.com"),helper.test_uname,"password","password")
         await expect(SecurePage.regsuccess).toBeExisting()
         await expect(SecurePage.regsuccess).toHaveTextContaining('Your registration completed')
     
@@ -58,7 +58,7 @@ describe('Registration Test Cases: ', () => {
         //register (gender, fname, lname, day, month, year, email, company, password, cpassword)
         //await DashPage.register();
         await regPage.open();
-        await regPage.regusr("m",helper.test_uname, helper.test_string, "1",'Month',"2020",helper.random_mail("fresher","mailinator.com"),helper.test_uname,"password","password")
+        await regPage.regusr("m",helper.test_uname, helper.test_string, "1",'Month',"2020",helper.random_mail("freshers","mailinator.com"),helper.test_uname,"password","password")
         await expect(SecurePage.regsuccess).toBeExisting()
         await expect(SecurePage.regsuccess).toHaveTextContaining('Your registration completed')
     
@@ -107,7 +107,7 @@ describe('Registration Test Cases: ', () => {
         //await DashPage.open()
         //register (gender, fname, lname, day, month, year, email, company, password, cpassword)
         //await DashPage.register();
-        await regPage.regusr("m",helper.test_uname, helper.test_string, "1","January","2020",helper.random_mail("fresher","mailinator.com"),'',"password","password")
+        await regPage.regusr("m",helper.test_uname, helper.test_string, "1","January","2020",helper.random_mail("freshers","mailinator.com"),'',"password","password")
         await expect(SecurePage.regsuccess).toBeExisting()
         await expect(SecurePage.regsuccess).toHaveTextContaining('Your registration completed')
     
@@ -117,7 +117,7 @@ describe('Registration Test Cases: ', () => {
         //register (gender, fname, lname, day, month, year, email, company, password, cpassword)
         //await DashPage.register();
         await regPage.open()
-        await regPage.regusr("m",helper.test_uname, helper.test_string, "1","January","2020",helper.random_mail("fresher","mailinator.com"),helper.test_uname,'','')
+        await regPage.regusr("m",helper.test_uname, helper.test_string, "1","January","2020",helper.random_mail("freshers","mailinator.com"),helper.test_uname,'','')
         await expect(SecurePage.passreq).toBeExisting()
         await expect(SecurePage.passreq).toHaveTextContaining('Password is required.')
     
@@ -127,7 +127,7 @@ describe('Registration Test Cases: ', () => {
         //await DashPage.open()
         //register (gender, fname, lname, day, month, year, email, company, password, cpassword)
         //await DashPage.register();
-        await regPage.regusr("m",helper.test_uname, helper.test_string, "1","January","2020",helper.random_mail("fresher","mailinator.com"),helper.test_uname,'password','aaaaaa')
+        await regPage.regusr("m",helper.test_uname, helper.test_string, "1","January","2020",helper.random_mail("freshers","mailinator.com"),helper.test_uname,'password','aaaaaa')
         await expect(SecurePage.passmatch).toBeExisting()
         await expect(SecurePage.passmatch).toHaveTextContaining('The password and confirmation password do not match.')
     
@@ -136,7 +136,7 @@ describe('Registration Test Cases: ', () => {
         //await DashPage.open()
         //register (gender, fname, lname, day, month, year, email, company, password, cpassword)
         //await DashPage.register();
-        await regPage.regusr("m",helper.test_uname, helper.test_string, "1","January","2020",helper.random_mail("fresher","mailinator.com"),helper.test_uname,'password','')
+        await regPage.regusr("m",helper.test_uname, helper.test_string, "1","January","2020",helper.random_mail("freshers","mailinator.com"),helper.test_uname,'password','')
         await expect(SecurePage.cpassreq).toBeExisting()
         await expect(SecurePage.cpassreq).toHaveTextContaining('Password is required.')
     
@@ -145,7 +145,7 @@ describe('Registration Test Cases: ', () => {
         //await DashPage.open()
         //register (gender, fname, lname, day, month, year, email, company, password, cpassword)
         //await DashPage.register();
-        await regPage.regusr("m",helper.test_uname, helper.test_string, "1","January","2020",helper.random_mail("fresher","mailinator.com"),helper.test_uname,'a','a')
+        await regPage.regusr("m",helper.test_uname, helper.test_string, "1","January","2020",helper.random_mail("freshers","mailinator.com"),helper.test_uname,'a','a')
         await expect(SecurePage.passrules).toBeExisting()
         await expect(SecurePage.passrules).toHaveTextContaining('Password must meet the following rules:')
     
@@ -155,7 +155,7 @@ describe('Registration Test Cases: ', () => {
         //await DashPage.open()
         //register (gender, fname, lname, day, month, year, email, company, password, cpassword)
         //await DashPage.register();
-        await regPage.regusr("m",helper.test_uname, helper.test_string, "1","January","2020",helper.random_mail("fresher","mailinator.com"),helper.test_uname,"password","password")
+        await regPage.regusr("m",helper.test_uname, helper.test_string, "1","January","2020",helper.random_mail("freshers","mailinator.com"),helper.test_uname,"password","password")
         await expect(SecurePage.regsuccess).toBeExisting()
         await expect(SecurePage.regsuccess).toHaveTextContaining('Your registration completed')
     
