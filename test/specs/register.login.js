@@ -6,7 +6,7 @@ import regPage from '../pageobjects/reg.page.js'
 
 
 
-describe('My Login application', () => {
+describe('Registration Test Cases: ', () => {
 
     // it('Should log emails', async () => {
     //     for(var i = 0; i < 11; i += 1) {
@@ -159,7 +159,11 @@ describe('My Login application', () => {
         await expect(SecurePage.regsuccess).toBeExisting()
         await expect(SecurePage.regsuccess).toHaveTextContaining('Your registration completed')
     
-    }),
+    })
+
+}),
+
+describe('Login Test Cases:', () => {
 
     it('Should not login without email', async () => {
         
@@ -185,7 +189,7 @@ describe('My Login application', () => {
         await expect(SecurePage.incorrect_creds).toHaveTextContaining('Login was unsuccessful. Please correct the errors and try again.')
     }),
 
-    it('Should not login without invalid email', async () => {
+    it('Should not login with invalid email', async () => {
         
         // await LoginPage.open()
         await LoginPage.reglogin('a', 'password')
@@ -209,5 +213,4 @@ describe('My Login application', () => {
     })
 
 })
-
 
