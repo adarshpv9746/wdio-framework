@@ -43,8 +43,8 @@ class RegPage extends Page {
      */
     async regusr (gender, fname, lname, day, month, year, email, company, password, cpassword) {
 
-        if(gender = "m"){ await this.male.click();}
-         else if(gender = "f"){await this.female.click();}
+        if(gender == "m"){ await this.male.click();}
+         else if(gender == "f"){await this.female.click();}
         
         await this.firstname.setValue(fname);
         await this.lastname.setValue(lname);

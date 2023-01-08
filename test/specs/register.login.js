@@ -29,7 +29,7 @@ describe('My Login application', () => {
         //register (gender, fname, lname, day, month, year, email, company, password, cpassword)
         //await DashPage.register();
         await regPage.open()
-        await regPage.regusr("m",'', helper.test_string, "1","January","2020",helper.random_mail("fresher","mailinator.com"),helper.test_uname,"password","password")
+        await regPage.regusr("f",'', helper.test_string, "1","January","2020",helper.random_mail("fresher","mailinator.com"),helper.test_uname,"password","password")
         await expect(SecurePage.fnameerror).toBeExisting()
         await expect(SecurePage.fnameerror).toHaveTextContaining('First name is required.')
     
