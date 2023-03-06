@@ -1,0 +1,248 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673520479022' stop='1673520532573'>
+    <name>Registration Test Cases: </name>
+    <title>Registration Test Cases: </title>
+    <test-cases>
+        <test-case start='1673520479023' status='passed' stop='1673520482520'>
+            <name>Should register a new user without gender</name>
+            <title>Should register a new user without gender</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673520482520' status='passed' stop='1673520484114'>
+            <name>Should not register a new user without first name</name>
+            <title>Should not register a new user without first name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673520484115' status='passed' stop='1673520485033'>
+            <name>Should not register a new user without last name</name>
+            <title>Should not register a new user without last name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673520485033' status='passed' stop='1673520487034'>
+            <name>Should register a new user without day</name>
+            <title>Should register a new user without day</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673520487035' status='passed' stop='1673520489576'>
+            <name>Should register a new user without month</name>
+            <title>Should register a new user without month</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673520489576' status='failed' stop='1673520501786'>
+            <name>Should register a new user without year</name>
+            <title>Should register a new user without year</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`/html/body/div[6]/div[3]/div/div/div/div[2]/div[1]`) to have text containing
+                
+                Expected: "Your registration completed"
+                Received: ""</message>
+                <stack-trace>Error: Expect $(`/html/body/div[6]/div[3]/div/div/div/div[2]/div[1]`) to have text containing
+                
+                Expected: "Your registration completed"
+                Received: ""
+                    at Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:73:45)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673520501786' status='passed' stop='1673520503345'>
+            <name>Should not register a new user without email</name>
+            <title>Should not register a new user without email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673520503345' status='passed' stop='1673520504353'>
+            <name>Should not register a new user with invalid email</name>
+            <title>Should not register a new user with invalid email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673520504353' status='failed' stop='1673520516407'>
+            <name>Should not register a new user with an existing email</name>
+            <title>Should not register a new user with an existing email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`//li[contains(text(),'The specified email already exists')]`) to be existing
+                
+                Expected: "existing"
+                Received: "not existing"</message>
+                <stack-trace>Error: Expect $(`//li[contains(text(),'The specified email already exists')]`) to be existing
+                
+                Expected: "existing"
+                Received: "not existing"
+                    at Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:101:46)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673520516409' status='broken' stop='1673520526435'>
+            <name>Should register a new user without company name</name>
+            <title>Should register a new user without company name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "//input[@id='gender-male']" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//input[@id='gender-male']" because element wasn't found
+                    at async RegPage.regusr (file:///home/qburst/Desktop/TCOE/wdio-framework/test/pageobjects/reg.page.js:46:28)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:110:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673520526436' status='passed' stop='1673520527951'>
+            <name>Should not register a new user without password</name>
+            <title>Should not register a new user without password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673520527951' status='passed' stop='1673520528792'>
+            <name>Should not register a new user without matching confirmation password</name>
+            <title>Should not register a new user without matching confirmation password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673520528792' status='passed' stop='1673520529808'>
+            <name>Should not register a new user without confirmation password</name>
+            <title>Should not register a new user without confirmation password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673520529808' status='passed' stop='1673520530802'>
+            <name>Should not register a new user without a valid password</name>
+            <title>Should not register a new user without a valid password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673520530802' status='passed' stop='1673520532573'>
+            <name>Should register a new user</name>
+            <title>Should register a new user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

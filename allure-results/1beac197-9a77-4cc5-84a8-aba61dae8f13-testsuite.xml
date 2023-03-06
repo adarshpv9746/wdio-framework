@@ -1,0 +1,156 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673521220379' stop='1673521220483'>
+    <name>Login Test Cases:</name>
+    <title>Login Test Cases:</title>
+    <test-cases>
+        <test-case start='1673521220379' status='broken' stop='1673521220403'>
+            <name>Should not login without email</name>
+            <title>Should not login without email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:170:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673521220403' status='broken' stop='1673521220419'>
+            <name>Should not login without password</name>
+            <title>Should not login without password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async LoginPage.reglogin (file:///home/qburst/Desktop/TCOE/wdio-framework/test/pageobjects/login.page.js:30:9)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:179:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673521220419' status='broken' stop='1673521220434'>
+            <name>Should not login with invalid password</name>
+            <title>Should not login with invalid password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async LoginPage.reglogin (file:///home/qburst/Desktop/TCOE/wdio-framework/test/pageobjects/login.page.js:30:9)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:187:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673521220435' status='broken' stop='1673521220450'>
+            <name>Should not login with invalid email</name>
+            <title>Should not login with invalid email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async LoginPage.reglogin (file:///home/qburst/Desktop/TCOE/wdio-framework/test/pageobjects/login.page.js:30:9)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:195:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673521220451' status='broken' stop='1673521220467'>
+            <name>Should not login with unregistered email</name>
+            <title>Should not login with unregistered email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async LoginPage.reglogin (file:///home/qburst/Desktop/TCOE/wdio-framework/test/pageobjects/login.page.js:30:9)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:203:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673521220467' status='broken' stop='1673521220483'>
+            <name>Should login with valid credentials</name>
+            <title>Should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.124)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async LoginPage.reglogin (file:///home/qburst/Desktop/TCOE/wdio-framework/test/pageobjects/login.page.js:30:9)
+                    at async Context.&lt;anonymous> (file:///home/qburst/Desktop/TCOE/wdio-framework/test/specs/register.login.js:211:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
