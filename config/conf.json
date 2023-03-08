@@ -1,0 +1,7 @@
+{
+"Environment":"QA",
+"max_parallel_tests":10,
+"Platform":"",
+"Mobile_name":"Nexus 5",
+"full_screen":"no"
+}

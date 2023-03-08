@@ -1,1 +1,1 @@
-sudo npm install @wdio/allure-reporter --save-dev
+npm install @wdio/allure-reporter --save-dev
